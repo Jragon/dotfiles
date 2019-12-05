@@ -1,0 +1,5 @@
+[credential]
+	helper = cache --timeout=360000
+[user]
+	name = Rory Anderson
+	email = rory@jragon.co.uk
