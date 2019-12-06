@@ -27,5 +27,7 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # custom
-alias goradmat="cd ~/codesigned/radmat-cms/ && source ~/codesigned/envs/radmat/bin/activate"
+alias goradmat="cd ~/codesigned/radmat-cms/ && source ~/.envs/radmat/bin/activate"
 alias config='/usr/bin/git --git-dir=/home/jippo/.cfg/ --work-tree=/home/jippo'
+bindkey '^[[3;5~' kill-word
+bindkey '^H' backward-kill-word
